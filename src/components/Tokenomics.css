@@ -1,0 +1,60 @@
+.tokenomics {
+    background-color: #002366; /* A darker shade to contrast the site's primary color */
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 80%;
+  }
+  
+  .tokenomics h2 {
+    color: #E0E0E0;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+  
+  .emphasis span {
+    color: #2cb852; /* A green color to emphasize the token address */
+    font-weight: bold;
+  }
+  
+  .basescan-button {
+    display: inline-block;
+    background-color: #0DCAF0; /* Bright blue to match the link colors */
+    color: #021037;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .basescan-button:hover {
+    background-color: #FFC107; /* Interactive feedback on hover */
+  }
+  
+  .swap-now-button {
+    font-size: 2rem; /* Increase font size */
+    color: #fff;
+    background-color: #2cb852;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px; /* Increase padding for a bigger button */
+    margin-top: 20px; /* Adjust as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex; /* Use inline-flex to keep button's inline nature */
+    align-items: center; /* Align button content (icons and text) vertically */
+  }
+  
+  .swap-now-button:hover {
+    background-color: #18672d;
+    transform: scale(1.05);
+  }
+  
+  .swap-icon {
+    width: 40px; /* Adjust for bigger icons */
+    margin: 0 20px; /* Increase spacing */
+  }

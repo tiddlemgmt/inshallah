@@ -1,0 +1,18 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #0047ff; /* Black background */
+  color: #E0E0E0; /* Light gray for text */
+  font-family: 'Shantell Sans', sans-serif;
+}
+
+a, .social-icon {
+  color: #0DCAF0; /* Bright blue for links and social icons */
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover, .social-icon:hover {
+  color: #FFC107; /* Change color on hover for better interaction feedback */
+}
+
+/* Add more specific styles for different elements as needed */

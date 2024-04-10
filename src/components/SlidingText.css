@@ -1,0 +1,35 @@
+.sliding-text-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  background: #002366   ; /* Background of the sliding text area */
+  padding: 1rem 0;
+  border-top: 2px solid #fff; /* White line at the top */
+  border-bottom: 2px solid #fff; /* White line at the bottom */
+}
+
+.sliding-text {
+  display: inline-block;
+  animation: slide 10s linear infinite;
+  font-size: 2rem;
+}
+
+.message {
+  padding: 0 2rem; /* Spacing between messages */
+}
+
+/* Specific style for text messages */
+.text-message {
+  position: relative;/* Move text down by 10px */
+  bottom: 30px; 
+}
+
+/* Keyframes for the sliding animation */
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
